@@ -1,0 +1,35 @@
+$bgColor:rgb(185, 39, 39);
+
+
+// CART ITEMS
+.cart{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.cart-products{
+    width: 700px;
+    height: 120px;
+    background-color: $bgColor;
+}
+.pro-titles{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 5px 0px 5px;
+}
+.item-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 5px 0px 5px;
+}
+.pro-details{
+    display: flex;
+}
+.pro-image img{
+    width: 50px;
+    height: 50px;
+}
+.pro-quantity{
+    display: flex;
+}
